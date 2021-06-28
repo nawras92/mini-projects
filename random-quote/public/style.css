@@ -1,0 +1,29 @@
+html, body{
+	height: 100%;
+}
+
+.page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 70%;
+	margin: auto;
+}
+
+.page__header{
+	background: #efefef;
+	padding: 2rem;
+}
+
+.page__text{
+	font-size: 2rem;
+}
+.page__text_center{
+	text-align: center;
+}
+
+.page__main{
+	background: #17A2B8;
+	padding: 1rem;
+	border-radius: 0.5rem 2rem;
+}
