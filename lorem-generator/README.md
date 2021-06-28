@@ -1,10 +1,10 @@
- # Random Lorem Text Generator
-This program generates random lorem text based on number of words given.
+# Random Lorem Text Generator
+This program generates random lorem text based on the given number of words.
 
 ## Technologies used: 
 - HTML
 - CSS (flexbox is used)                                           
-- NodeJs (http, fs, path, mustache, and loremIspum libraries are used)
+- NodeJs (http, fs, path, mustache, and loremIspum modules are used)
 - AJAX
 
 ## How to use?
