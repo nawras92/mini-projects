@@ -1,0 +1,14 @@
+{
+  "name": "books-api",
+  "version": "1.0.0",
+  "description": "An API to add/delete/update/view books",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Nawras Ali",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
