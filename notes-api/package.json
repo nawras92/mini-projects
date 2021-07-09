@@ -1,0 +1,19 @@
+{
+  "name": "notes-api",
+  "version": "1.0.0",
+  "description": "An api to manage notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"nodemon app.js\""
+  },
+  "keywords": [
+    "express",
+    "api",
+    "notes-api"
+  ],
+  "author": "Nawras Ali",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

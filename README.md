@@ -5,5 +5,7 @@ You can find here my recent practice projects
 - Random Quote (Nodejs)
 - Color Checker (Nodejs)
 - Lorem Generator (Nodejs)
+- Books API (Nodejs)
+- Notes API (Nodejs)
 
 > I create for creation's sake [~ Nawras Ali](https://learnwithnaw.com)/[Videos](https://youtube.com/c/learnwithnaw)
