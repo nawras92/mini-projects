@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Notes API Interface</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<h1>Welcome to our Notes API</h1>
+
+	<form action="" class="form" id="user_form_post" method="POST">
+		<fieldset>
+			<legend>Add a note</legend>
+			<label for="title_input">Note Title</label>
+			<input name="title_input" id="title_note" type="text" placeholder="Note title Goes here">
+			<label for="cat_input">Note Category</label>
+			<input name="cat_input" id="cat_input" type="text" placeholder="Note category Goes here">
+			<button id="postButton" name="postButton" value="submit" type="submit">Add</button>
+		</fieldset>
+	</form>
+
+	<form action="" class="form" id="user_form_delete">
+		<fieldset>
+			<legend>Delete a note</legend>
+			<label for="noteId">Delete a note</label>
+			<input name="noteId" id="noteId" type="text" placeholder="Note ID">
+			<button id="deleteNote" name="deleteNote" value="submit" type="submit">Delete</button>
+		</fieldset>
+	</form>
+
+	<form action="" class="form" id="user_form_update" method="POST">
+		<fieldset>
+			<legend>Update a note</legend>
+			<label for="noteId">Note ID</label>
+			<input name="noteId" id="noteId" type="text" placeholder="Note ID">
+			<label for="title_input">Note Title</label>
+			<input name="title_input" id="title_note" type="text" placeholder="Note title Goes here">
+			<label for="cat_input">Note Category</label>
+			<input name="cat_input" id="cat_input" type="text" placeholder="Note category Goes here">
+			<button id="updateButton" name="updateButton" value="submit" type="submit">Update</button>
+		</fieldset>
+	</form>
+
+	<form action="" class="form" id="user_form">
+		<fieldset>
+			<legend>List notes</legend>
+			<label for="noteId">Get a note</label>
+			<input name="noteId" id="noteId" type="text" placeholder="Note ID">
+			<button id="getButton" name="getButton" value="submit" type="submit">Submit</button>
+		</fieldset>
+	</form>
+
+	<div id="results"></div>
+	<script src="./api.js"></script>
+
+</body>
+</html>

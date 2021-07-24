@@ -1,0 +1,89 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 1rem auto;
+	padding: 1rem;
+	background: #efefef;
+}
+
+h1{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-size: 2rem;
+	background: #3399ff;
+	color: #000;
+	padding: 0.2rem;
+	border-radius: 20%;
+	text-align: center;
+}
+
+
+#results{
+	background: lightgrey;
+	padding: 1rem;
+	grid-column-start: 2;
+	grid-column-end: -1;
+}
+
+.form{
+	background: #111111;
+	padding: 2rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+fieldset{
+	width: 100%;
+	color: #fff;
+}
+
+legend{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+button{
+	display: block;
+	width: 100%;
+	background: #3399ff;
+	color: #fff;
+	padding: 0.4rem;
+	margin: 1rem auto;
+	outline: none;
+	border: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+button:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+input{
+	display: block;
+	margin: 1rem 0;
+}
+
+label{
+	display: block;
+	margin-bottom: 1rem;
+}
+
+ul{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}
