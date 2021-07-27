@@ -1,0 +1,47 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	margin: 1rem;
+	padding: 1rem;
+	background: #F0F8FF;
+}
+
+.note{
+	padding: 1rem;
+	background: #ffffff;
+	text-align: center;
+}
+
+.note:hover{
+	background: #E238EC;
+	color: fff;
+	cursor: pointer;
+}
+
+.note-title{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.note-category{
+	font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 760px){
+	.container{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+}
