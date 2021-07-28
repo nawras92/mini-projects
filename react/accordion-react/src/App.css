@@ -1,0 +1,46 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	width: 80%;
+	margin: 1rem auto;
+	padding: 2rem;
+	background: #F0F8FF;
+}
+
+.note{
+	background: #fff;
+	padding: 0.2rem;
+	margin: 1rem;
+}
+
+.note-panel{
+	padding: 1rem;
+}
+
+.note-text{
+	font-size: 1.3rem;
+}
+
+.note-button{
+	outline: none;
+	border: none;
+	width: 100%;
+	display: block;
+	background: #a1c935;
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.note-button:hover,
+.note-button:focus {
+	cursor: pointer;
+	background: #614051;
+}
