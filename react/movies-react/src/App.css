@@ -1,0 +1,73 @@
+/* Reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* main container */
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #efefef;
+}
+
+/* Heading component */
+.header {
+  background: #8c001a;
+  padding: 1rem;
+}
+
+.header-heading {
+  color: #fff;
+}
+
+/* Footer component */
+.footer {
+  background: #3b3131;
+  color: #fff;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+/* Main component */
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem auto;
+  width: 90%;
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  margin: 0.2rem;
+}
+
+.card-img {
+  display: block;
+  max-width: 100%;
+}
+
+.card-details {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-subtitle {
+  font-size: 0.8rem;
+}
+
+.card-subtitle::before {
+  content: "| ";
+}
+
+.card-text {
+  font-size: 0.8rem;
+}
