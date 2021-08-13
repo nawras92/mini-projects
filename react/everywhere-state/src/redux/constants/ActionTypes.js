@@ -1,0 +1,1 @@
+export const PROVIDE_VALUE = "PROVIDE_VALUE";

@@ -11,5 +11,6 @@ You can find here all my recent react practice projects.
 - Movies DB (react)
 - Products DB (react)
 - Voting App (react/redux)
+- Everywhere State (react/redux)
 	
 > I create for creation's sake [~ Nawras Ali](https://learnwithnaw.com)/[Videos](https://youtube.com/c/learnwithnaw)

@@ -1,0 +1,126 @@
+/* reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+.header {
+  background: #2b65ec;
+  padding: 1rem;
+  color: #fff;
+}
+
+.header-heading {
+  font-size: 3rem;
+}
+
+/* footer */
+
+.footer {
+  background: #483c32;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* main */
+.main {
+  flex: 1;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #cff;
+}
+
+.main-heading {
+  background: #99c6e8;
+}
+
+/* levels styling  */
+.main-heading,
+.level1-heading,
+.level2-heading,
+.level3-heading,
+.level4-heading {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+.main-subheading,
+.level1-subheading,
+.level2-subheading,
+.level3-subheading,
+.level4-subheading {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background: #0f0;
+}
+
+.level1,
+.level2,
+.level3,
+.level4 {
+  padding: 1rem;
+}
+
+.level1 {
+  background: #fffbcd;
+}
+
+.level2 {
+  background: #e55b3c;
+}
+
+.level3 {
+  background: #c48793;
+}
+
+.level4 {
+  background: #e8adaa;
+}
+
+.level4-userInput {
+  padding: 1rem;
+}
+
+.level4-input {
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 0.2rem solid #000;
+  background: transparent;
+}
+
+.level4-button {
+  border: none;
+  outline: none;
+  display: block;
+  margin: 1rem;
+  text-align: center;
+  width: 70%;
+  padding: 0.4rem;
+  background: #efefef;
+  font-weight: bold;
+}
+
+.level4-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
