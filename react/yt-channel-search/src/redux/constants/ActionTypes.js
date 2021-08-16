@@ -1,0 +1,2 @@
+export const SEARCH = "SEARCH";
+export const FETCH_VIDEOS_REQUEST = "FETCH_VIDEOS_REQUEST ";
