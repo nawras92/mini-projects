@@ -1,0 +1,105 @@
+/* reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+.header {
+  background: #2b65ec;
+  padding: 1rem;
+  color: #fff;
+}
+
+.header-heading {
+  font-size: 3rem;
+}
+
+/* footer */
+
+.footer {
+  background: #483c32;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* main */
+.main {
+  flex: 1;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* upload form styling */
+.upload-form {
+  margin: 1rem;
+  padding: 2rem;
+  border: 0.5rem dotted #0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-form-input {
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+.upload-form-button {
+  display: block;
+  width: 100%;
+  background: #2b65ec;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+}
+
+.upload-form-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* file content results styling */
+.file {
+  margin: 1rem;
+  padding: 1rem;
+  background: #483c32;
+  color: #fff;
+}
+
+.file-title,
+.file-text {
+  margin: 1rem;
+}
+
+.file-title {
+  font-size: 2rem;
+}
+
+.file-text {
+  font-size: 1.5rem;
+}
