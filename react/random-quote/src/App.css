@@ -1,0 +1,27 @@
+.button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20%;
+  border: none;
+  background: #e5e;
+  outline: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #0f0;
+  cursor: pointer;
+}
+
+.quote {
+  border: 0.2rem solid tomato;
+  padding: 1rem;
+  margin: 1rem;
+  background: black;
+  color: #fff;
+}
+
+.quote-text {
+  font-size: 2rem;
+}
